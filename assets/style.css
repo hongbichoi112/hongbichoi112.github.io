@@ -40,7 +40,7 @@ a:hover { text-decoration: underline; }
   display: flex; align-items: center; gap: 2.5em;
 }
 .site-title {
-  font-weight: 700; color: var(--heading); font-size: 1rem;
+  font-weight: 700; color: var(--heading); font-size: 1rem; white-space: nowrap;
 }
 .site-title:hover { text-decoration: none; }
 .nav-links { display: flex; gap: 1.5em; margin: 0; padding: 0; list-style: none; }
@@ -121,6 +121,14 @@ a:hover { text-decoration: underline; }
 }
 .abstract.open { display: block; }
 
+.paper__note { margin: -.3em 0 .5em; font-size: .85rem; color: var(--muted); }
+.muted { color: var(--muted); font-weight: 400; }
+
+/* Teaching 페이지 */
+.course { margin-bottom: 1.1em; }
+.content .course__title { margin: 0; }
+.content .course__term { margin: .1em 0 0; font-size: .85rem; color: var(--muted); }
+
 /* 일반 리스트 */
 .plain-list { padding-left: 1.2em; }
 .plain-list li { margin-bottom: .5em; }
@@ -134,4 +142,9 @@ a:hover { text-decoration: underline; }
 footer {
   text-align: center; font-size: .75rem; color: var(--muted);
   padding: 2em 1em; border-top: 1px solid var(--border);
+}
+
+@media (max-width: 480px) {
+  .masthead__inner { gap: 1.2em; padding: 1em; }
+  .nav-links { gap: 1em; }
 }

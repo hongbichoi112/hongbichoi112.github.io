@@ -4,3 +4,8 @@
 /Hongbi_Choi_CV__202606.pdf
 .claude/
 .DS_Store
+# 원고/메모용 파일 (사이트에는 올리지 않음)
+/files/*.txt
+/files/*.rtf
+/files/Choi_Texas A&M_CV.pdf
+/references_apa7.bib
