@@ -148,3 +148,9 @@ footer {
   .masthead__inner { gap: 1.2em; padding: 1em; }
   .nav-links { gap: 1em; }
 }
+
+/* Contact 페이지 */
+.content .contact { margin-bottom: 1.8em; }
+.content .contact h2 { font-size: 1.1rem; margin-bottom: .4em; }
+.content .contact h2 i { width: 1.2em; color: var(--accent); }
+.content address { font-style: normal; line-height: 1.6; }
